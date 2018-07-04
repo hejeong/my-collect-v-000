@@ -6,3 +6,7 @@ def my_collect(array)
     i += 1
   end
 end
+
+my_collect(collection) do |lang|
+  lang.upcase
+end
